@@ -8,10 +8,10 @@ setwd('C:/Users/molleman/Desktop/Behavioral anatomy of rule following/data exper
 #empExpData<-read.table('TLT with and without externalities - Expectations.txt', header=TRUE, sep='\t');
 
 
-normExpData<-read.xlsx("Why people follow rules - data.xlsx", sheet = 10, startRow = 1, colNames = TRUE)
-empExpData<- read.xlsx("Why people follow rules - data.xlsx", sheet = 11, startRow = 1, colNames = TRUE)
-NEdata<-read.xlsx("Why people follow rules - data.xlsx", sheet = 12, startRow = 1, colNames = TRUE)
-EEdata<-read.xlsx("Why people follow rules - data.xlsx", sheet = 13, startRow = 1, colNames = TRUE)
+normExpData<-read.xlsx("Why people follow rules - data.xlsx", sheet = 9, startRow = 1, colNames = TRUE)
+empExpData<- read.xlsx("Why people follow rules - data.xlsx", sheet = 10, startRow = 1, colNames = TRUE)
+NEdata<-read.xlsx("Why people follow rules - data.xlsx", sheet = 11, startRow = 1, colNames = TRUE)
+EEdata<-read.xlsx("Why people follow rules - data.xlsx", sheet = 12, startRow = 1, colNames = TRUE)
 
 
 
