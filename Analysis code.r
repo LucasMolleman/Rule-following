@@ -57,7 +57,6 @@ mean(a$comply1)
 ## which states 'DONT move before it turns green'
 
 a <- read.xlsx("Why people follow rules - data.xlsx", sheet = 7, startRow = 1, colNames = TRUE)
-a<-subset(a, a$DOorDONT=='DONT')
 a$move1<-ifelse(a$move1<20000, a$move1, 20000)
 hist(a$move1)
 a$comply1<-ifelse(a$move1<8100,0,1)
