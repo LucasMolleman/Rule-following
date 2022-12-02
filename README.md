@@ -7,6 +7,6 @@ The Analysis file contains all analyses, which shoulde be conducted in R. It als
 
 The script "Simulations rule-following.R" contains the agent-based simulations reported in Fig. 4E of the main text of the paper. 
 
-The png files 'angel' and 'demon' are for the figures.
+The png files 'angel' and 'demon' are used in the scripts creating the figures.
 
 For any questions regarding this repository, don't hesitate to contact Lucas Molleman at l.s.molleman@uva.nl
